@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preçário — IN WALL Climbing Center</title>
+<meta name="description" content="Passe diário, mensal, cartão de 10 entradas e aluguer de equipamento no InWall Setúbal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/precario.css">
+</head>
+<body>
+
+<div class="route-rail" aria-hidden="true">
+  <svg preserveAspectRatio="none"><line class="track" x1="14" y1="0" x2="14" y2="100%"></line><line class="progress" id="routeProgress" x1="14" y1="0" x2="14" y2="0"></line></svg>
+</div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="brand">IN WALL <span>CLIMBING CENTER</span></a>
+    <nav class="navlinks">
+      <a href="primeiro-contacto.html">Primeiro Contacto</a>
+      <a href="aulas-grupo.html">Aulas de Grupo</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="regras.html">Regras</a>
+      <a href="precario.html">Preçário</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="https://wa.me/message/LN25NQYSWAW2D1" class="nav-cta">WhatsApp</a>
+    </nav>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="primeiro-contacto.html">Primeiro Contacto</a>
+    <a href="aulas-grupo.html">Aulas de Grupo</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="regras.html">Regras</a>
+    <a href="precario.html">Preçário</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="https://wa.me/message/LN25NQYSWAW2D1" class="nav-cta">Falar no WhatsApp</a>
+  </div>
+</header>
+
+<main>
+  <section class="section" data-route="1">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Preçário</span>
+        <h2>Escolhe o teu passe</h2>
+        <p>Do passe diário ao cartão de 10 entradas — treina no teu ritmo.</p>
+      </div>
+
+      <div class="price-tiers reveal">
+        <div class="tier">
+          <span class="tag tag-green">Diário</span>
+          <h4 style="margin-top:12px;">Passe Diário</h4>
+          <div class="tier-row"><span>Até 12 anos</span><b>8,50€</b></div>
+          <div class="tier-row"><span>13 anos ou mais</span><b>12€</b></div>
+          <div class="tier-row"><span>Happy hour* (semana, até 16h30)</span><b>10€</b></div>
+          <ul class="tier-notes">
+            <li>Aluguer de sapatos: 4€</li>
+            <li>Saída e regresso no mesmo dia implica nova entrada</li>
+            <li>Até 12 anos: sempre acompanhado por adulto</li>
+          </ul>
+        </div>
+        <div class="tier">
+          <span class="tag tag-yellow">Mensal</span>
+          <h4 style="margin-top:12px;">Passe Mensal</h4>
+          <div class="tier-row"><span>Até 12 anos</span><b>65€</b></div>
+          <div class="tier-row"><span>13 anos ou mais</span><b>75€</b></div>
+          <div class="tier-row"><span>Manhãs* (até às 15h)</span><b>55€</b></div>
+          <ul class="tier-notes">
+            <li>Válido do 1º ao último dia do mês</li>
+            <li>Aluguer de sapatos: 4€</li>
+            <li>Manhãs: dias de semana, exclui feriados</li>
+          </ul>
+        </div>
+        <div class="tier">
+          <span class="tag tag-red">Cartão</span>
+          <h4 style="margin-top:12px;">Cartão 10 Passes</h4>
+          <div class="tier-row"><span>Normal</span><b>90€</b></div>
+          <div class="tier-row"><span>Manhãs* (13+, até às 15h)</span><b>75€</b></div>
+          <ul class="tier-notes">
+            <li>Dono do cartão tem de estar sempre presente</li>
+            <li>Validade de 1 ano a partir da compra</li>
+            <li>Sapatos com desconto de 1€ no aluguer</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="equip-tables reveal">
+        <div>
+          <h5>Aluguer de equipamento · InWall</h5>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Equipamento</th><th>Valor</th></tr></thead>
+              <tbody>
+                <tr><td>Sapatos de escalada</td><td>4€</td></tr>
+                <tr><td>Sapatos (cliente fidelizado)</td><td>3€</td></tr>
+                <tr><td>Capacete</td><td>1€</td></tr>
+                <tr><td>Arnês</td><td>2€</td></tr>
+                <tr><td>Magnésio líquido</td><td>3€</td></tr>
+                <tr><td>Corda</td><td>5€</td></tr>
+                <tr><td>Aparelho de segurança</td><td>2€</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h5>Aluguer de equipamento · Outdoor</h5>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Equipamento</th><th>Preço/dia</th><th>Depósito</th></tr></thead>
+              <tbody>
+                <tr><td>Arnês</td><td>10€</td><td>30€</td></tr>
+                <tr><td>Capacete</td><td>5€</td><td>20€</td></tr>
+                <tr><td>Corda (70m)</td><td>20€</td><td>100€</td></tr>
+                <tr><td>Crashpad</td><td>15€</td><td>80€</td></tr>
+                <tr><td>Dissipador via ferrata</td><td>25€</td><td>50€</td></tr>
+                <tr><td>6 / 12 Expressos</td><td>18€ / 30€</td><td>70€ / 120€</td></tr>
+                <tr><td>Gri-Gri</td><td>10€</td><td>20€</td></tr>
+                <tr><td>Longe</td><td>6€</td><td>20€</td></tr>
+                <tr><td>Mochila</td><td>10€</td><td>30€</td></tr>
+                <tr><td>Mosquetão</td><td>3€</td><td>10€</td></tr>
+                <tr><td>Pés de gato</td><td>8€</td><td>50€</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">IN WALL</div>
+      <div class="footer-links">
+        <a href="primeiro-contacto.html">Primeiro Contacto</a>
+        <a href="aulas-grupo.html">Aulas de Grupo</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="precario.html">Preçário</a>
+        <a href="https://inwallclimbing.pt/clube-de-escalada/">Clube de Escalada</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 IN WALL Climbing Center · Setúbal</span>
+      <span>Av. do Alentejo 20E, 2910-381 Setúbal · +351 265 771 213</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/base.js"></script>
+</body>
+</html>
