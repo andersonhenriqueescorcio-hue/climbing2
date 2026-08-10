@@ -1,0 +1,41 @@
+/* ============================================
+   CONTACTO.CSS
+   ============================================ */
+
+.contact-layout{display:grid;gap:48px;grid-template-columns:1.1fr 0.9fr;align-items:start;}
+@media(max-width:860px){.contact-layout{grid-template-columns:1fr;}}
+.form-field{margin-bottom:16px;}
+.form-field label{display:block;font-size:12.5px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;color:var(--stone-700);}
+.form-field input,.form-field textarea{
+  width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius);
+  font-family:'Inter',sans-serif;font-size:14.5px;background:var(--chalk-50);color:var(--stone-950);
+}
+.form-field textarea{min-height:110px;resize:vertical;}
+.submit-btn{
+  background:var(--stone-950);color:#fff;border:none;padding:14px 30px;border-radius:var(--radius);
+  font-weight:700;text-transform:uppercase;letter-spacing:0.04em;font-size:13.5px;cursor:pointer;
+}
+.submit-btn:hover{background:var(--hold-red);}
+.info-card{background:var(--stone-950);color:var(--chalk-50);border-radius:var(--radius);padding:30px;}
+.info-card h4{color:#fff;font-size:1.2rem;margin-bottom:6px;}
+.info-block{margin-bottom:22px;}
+.info-block .label{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--hold-yellow);letter-spacing:0.08em;text-transform:uppercase;display:block;margin-bottom:6px;}
+.info-block a, .info-block p{color:var(--chalk-100);font-size:15px;}
+
+/* ---------- Newsletter ---------- */
+.newsletter{
+  background:linear-gradient(120deg,var(--hold-red),#8f342b);color:#fff;border-radius:var(--radius);
+  padding:48px 40px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;
+}
+.newsletter h3{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem);max-width:420px;}
+.newsletter p{color:rgba(255,255,255,0.85);font-size:14.5px;margin-top:8px;max-width:380px;}
+.newsletter-form{display:flex;gap:0;flex-wrap:wrap;max-width:420px;width:100%;}
+.newsletter-form input{
+  flex:1;min-width:180px;padding:14px 16px;border:none;border-radius:var(--radius) 0 0 var(--radius);
+  font-family:'Inter',sans-serif;font-size:14.5px;
+}
+.newsletter-form button{
+  padding:14px 22px;border:none;border-radius:0 var(--radius) var(--radius) 0;
+  background:var(--stone-950);color:#fff;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:0.04em;cursor:pointer;
+}
+.newsletter-form button:hover{background:#000;}

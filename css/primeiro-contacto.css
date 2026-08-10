@@ -1,0 +1,36 @@
+/* ============================================
+   PRIMEIRO-CONTACTO.CSS
+   ============================================ */
+
+.page-hero{
+  background:var(--stone-950);color:var(--chalk-50);padding:56px 0 48px;
+}
+.page-hero .eyebrow{color:var(--hold-yellow);}
+.page-hero h1{font-size:clamp(2.2rem,5.5vw,3.6rem);}
+.page-hero p{margin-top:14px;max-width:600px;color:var(--chalk-100);opacity:0.85;}
+
+.discipline{margin-bottom:56px;}
+.discipline-head{display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:18px;}
+.discipline-head h3{font-size:clamp(1.6rem,3vw,2.1rem);}
+.discipline p{max-width:680px;color:var(--stone-700);}
+
+.cards{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
+.card{
+  background:var(--chalk-100);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px;display:flex;flex-direction:column;gap:14px;position:relative;
+}
+.card h4{font-size:1.15rem;letter-spacing:0.01em;}
+.card ul{padding-left:18px;color:var(--stone-700);font-size:14.5px;}
+.card ul li{margin-bottom:4px;}
+.price-row{
+  margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);
+  display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px;
+}
+.price{font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:1.7rem;color:var(--stone-950);}
+.price small{font-family:'Inter',sans-serif;font-weight:500;font-size:12px;color:var(--stone-500);}
+.card-cta{
+  display:inline-block;text-align:center;padding:10px 16px;border-radius:var(--radius);
+  background:var(--stone-950);color:var(--chalk-50)!important;font-weight:700;font-size:13px;
+  text-transform:uppercase;letter-spacing:0.04em;
+}
+.card-cta:hover{background:var(--hold-red);}

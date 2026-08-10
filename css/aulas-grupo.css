@@ -1,0 +1,14 @@
+/* ============================================
+   AULAS-GRUPO.CSS
+   ============================================ */
+
+.schedule-grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
+.schedule-card{background:var(--stone-950);color:var(--chalk-50);border-radius:var(--radius);padding:28px;}
+.schedule-card .age{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--hold-yellow);letter-spacing:0.08em;}
+.schedule-card h4{color:#fff;font-size:1.6rem;margin:6px 0 14px;}
+.timerow{display:flex;justify-content:space-between;font-size:14px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.1);}
+.timerow b{color:var(--chalk-50);}
+.plan-list{list-style:none;margin-top:16px;display:flex;flex-direction:column;gap:6px;}
+.plan-list li{display:flex;justify-content:space-between;font-size:14px;color:var(--chalk-100);opacity:0.85;}
+.plan-list li b{color:#fff;font-family:'IBM Plex Mono',monospace;opacity:1;}
+.schedule-note{font-size:12px;opacity:0.55;margin-top:14px;}
